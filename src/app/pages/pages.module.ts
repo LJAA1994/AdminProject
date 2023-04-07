@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 // Modules
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
 
 //Components
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -22,6 +24,10 @@ import { PagesComponent } from './pages.component';
     CommonModule,
     SharedModule,
     RouterModule,
+    ReactiveFormsModule,
+    FormsModule
+
+
   ],
   exports:[
     DashboardComponent,
