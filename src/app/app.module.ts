@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 // Modules
 import { AppRoutingModule } from './app-routing.module';
 import { PagesModule } from './pages/pages.module';
+import { NgChartsModule } from 'ng2-charts';
+
 
 // Components
 import { AppComponent } from './app.component';

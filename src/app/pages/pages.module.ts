@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-
+import { ComponentsModule } from '../components/components.module';
 
 //Components
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -25,7 +25,9 @@ import { PagesComponent } from './pages.component';
     SharedModule,
     RouterModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    ComponentsModule,
+
 
 
   ],

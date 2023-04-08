@@ -6,29 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./progress.component.scss'],
 })
 export class ProgressComponent implements OnInit {
-  progress: number = 20;
+progress1: number = 20;
+progress2: number = 50;
 
-  get getPorcent() {
-    return `${this.progress}%`;
+get getProgress1 () {
+  return `${this.progress1}%`
+}
+get getProgress2 () {
+  return `${this.progress2}%`
+}
+  ngOnInit(): void {
   }
-  constructor() {}
 
-  ngOnInit(): void {}
 
-  plusValue = (value: number) => {
-    console.log(this.progress);
-
-    if (this.progress ==100) {
-      return;
-    }
-    this.progress += value;
-  };
-
-  lessValue = (value: number) => {
-    console.log(this.progress);
-    if (this.progress == 0) {
-      return;
-    }
-    this.progress -= value;
-  };
 }
