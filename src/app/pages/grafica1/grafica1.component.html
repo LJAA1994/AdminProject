@@ -1,1 +1,23 @@
-<p>grafica1 works!</p>
+<div class="row">
+  <div class="col-6">
+    <h2>GRAFICA1</h2>
+    <app-donuts [title]="'Ventas'"></app-donuts>
+  </div>
+
+  <div class="col-6">
+    <h2>GRAFICA2</h2>
+    <app-donuts [title]="'Compras'" [labels]="labels1" [data]="data1" [type]="typeGraphic1" [colors]="colors1"></app-donuts>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-6">
+    <h2>GRAFICA3</h2>
+    <app-donuts [title]="'Deudas'"></app-donuts>
+  </div>
+
+  <div class="col-6">
+    <h2>GRAFICA4</h2>
+    <app-donuts [title]="'Recibos'"></app-donuts>
+  </div>
+</div>

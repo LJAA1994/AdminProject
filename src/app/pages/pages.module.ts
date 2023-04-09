@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
+import { ChartsModule } from 'ng2-charts';
 
 //Components
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -27,9 +28,7 @@ import { PagesComponent } from './pages.component';
     ReactiveFormsModule,
     FormsModule,
     ComponentsModule,
-
-
-
+    ChartsModule
   ],
   exports:[
     DashboardComponent,
